@@ -72,14 +72,14 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpB-YR-LGT">
-                                            <rect key="frame" x="89" y="11" width="81" height="22"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <rect key="frame" x="81" y="11" width="69" height="18"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzf-UA-Sdh">
-                                            <rect key="frame" x="89" y="37" width="270" height="72"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzf-UA-Sdh">
+                                            <rect key="frame" x="89" y="33" width="270" height="76"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -87,10 +87,13 @@
                                     <constraints>
                                         <constraint firstItem="ZpB-YR-LGT" firstAttribute="top" secondItem="Xdj-xN-Hin" secondAttribute="topMargin" id="6kA-PX-v7T"/>
                                         <constraint firstItem="Tzf-UA-Sdh" firstAttribute="leading" secondItem="6BG-8y-Xep" secondAttribute="trailing" constant="8" id="Jjq-d5-an1"/>
+                                        <constraint firstItem="6BG-8y-Xep" firstAttribute="leading" secondItem="Xdj-xN-Hin" secondAttribute="leadingMargin" id="KBh-V7-fzb"/>
+                                        <constraint firstItem="ZpB-YR-LGT" firstAttribute="top" secondItem="Xdj-xN-Hin" secondAttribute="topMargin" id="OMQ-hW-VRl"/>
+                                        <constraint firstItem="6BG-8y-Xep" firstAttribute="top" secondItem="Xdj-xN-Hin" secondAttribute="topMargin" id="Yk3-iD-ubf"/>
                                         <constraint firstItem="6BG-8y-Xep" firstAttribute="leading" secondItem="Xdj-xN-Hin" secondAttribute="leadingMargin" id="Yzs-r5-26v"/>
+                                        <constraint firstItem="ZpB-YR-LGT" firstAttribute="leading" secondItem="6BG-8y-Xep" secondAttribute="trailing" id="f4x-qy-4R9"/>
                                         <constraint firstItem="Tzf-UA-Sdh" firstAttribute="trailing" secondItem="Xdj-xN-Hin" secondAttribute="trailingMargin" id="jkE-lz-izW"/>
                                         <constraint firstItem="Tzf-UA-Sdh" firstAttribute="top" secondItem="ZpB-YR-LGT" secondAttribute="bottom" constant="4" id="nGY-LX-18D"/>
-                                        <constraint firstItem="ZpB-YR-LGT" firstAttribute="leading" secondItem="6BG-8y-Xep" secondAttribute="trailing" constant="8" id="oOb-WC-6hx"/>
                                         <constraint firstItem="Tzf-UA-Sdh" firstAttribute="bottom" secondItem="Xdj-xN-Hin" secondAttribute="bottomMargin" id="tfp-8o-Uxt"/>
                                         <constraint firstItem="6BG-8y-Xep" firstAttribute="top" secondItem="Xdj-xN-Hin" secondAttribute="topMargin" id="zcJ-zx-kvZ"/>
                                     </constraints>
